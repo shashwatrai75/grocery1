@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/image/naya.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    padding: 0 20px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    transition: text-decoration 0.3s; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 48px; /* Adjust font size */
+}
+
+p {
+    color: #fff;
+    font-size: 14px; /* Adjust font size */
+    line-height: 20px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 14px; /* Adjust font size */
+    padding: 12px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s; /* Corrected typo */
+}
+
+.card1 {
+    background-image: url(/image/sale.gif);
+}
+
+.card2 {
+    background-image: url(/image/3bc7n4ag43n61.jpg);
+}
+
+.card3 {
+    background-image: url(/image/giphy.gif);
+}
+
+.card4 {
+    background-image: url(/image/grocery\ ko.gif);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 12px; 
+}
+.footer {
+    background-color: #79df06d7;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .social-links {
+    margin-top: 20px;
+  }
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+  /* Add styles for the night mode button */
+#night-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #night-mode-toggle:hover {
+    background-color: #555;
+  }
+  .dark-mode-button {
+    width: 40px; 
+    height: 40px; 
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+  
+  .dark-mode-button:hover {
+    background-color: #555; 
+  }
+  
+  
+  
